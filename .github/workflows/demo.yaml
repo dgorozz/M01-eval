@@ -1,0 +1,11 @@
+name: Print name
+
+on:
+  workflow_dispatch:
+
+jobs:
+  print-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print name
+        run: echo "Daniel Gomez Rodriguez"
